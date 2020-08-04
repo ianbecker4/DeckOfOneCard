@@ -12,6 +12,9 @@
 		4B2E5A2A24D9F8E70069DD15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B2E5A2824D9F8E70069DD15 /* Main.storyboard */; };
 		4B2E5A2C24D9F8E70069DD15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B2E5A2B24D9F8E70069DD15 /* Assets.xcassets */; };
 		4B2E5A2F24D9F8E70069DD15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B2E5A2D24D9F8E70069DD15 /* LaunchScreen.storyboard */; };
+		4B2E5A4024D9FE4E0069DD15 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2E5A3F24D9FE4E0069DD15 /* Card.swift */; };
+		4B2E5A4224D9FEE20069DD15 /* CardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2E5A4124D9FEE20069DD15 /* CardController.swift */; };
+		4B2E5A4424D9FFAA0069DD15 /* CardError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2E5A4324D9FFAA0069DD15 /* CardError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		4B2E5A2B24D9F8E70069DD15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B2E5A2E24D9F8E70069DD15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B2E5A3024D9F8E70069DD15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B2E5A3F24D9FE4E0069DD15 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		4B2E5A4124D9FEE20069DD15 /* CardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardController.swift; sourceTree = "<group>"; };
+		4B2E5A4324D9FFAA0069DD15 /* CardError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +101,7 @@
 		4B2E5A3924D9F9B60069DD15 /* HelpersAndExtensions */ = {
 			isa = PBXGroup;
 			children = (
+				4B2E5A4324D9FFAA0069DD15 /* CardError.swift */,
 			);
 			path = HelpersAndExtensions;
 			sourceTree = "<group>";
@@ -125,6 +132,7 @@
 		4B2E5A3D24D9F9ED0069DD15 /* ModelControllers */ = {
 			isa = PBXGroup;
 			children = (
+				4B2E5A4124D9FEE20069DD15 /* CardController.swift */,
 			);
 			path = ModelControllers;
 			sourceTree = "<group>";
@@ -132,6 +140,7 @@
 		4B2E5A3E24D9F9F60069DD15 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				4B2E5A3F24D9FE4E0069DD15 /* Card.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -208,6 +217,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B2E5A2324D9F8E70069DD15 /* AppDelegate.swift in Sources */,
+				4B2E5A4224D9FEE20069DD15 /* CardController.swift in Sources */,
+				4B2E5A4024D9FE4E0069DD15 /* Card.swift in Sources */,
+				4B2E5A4424D9FFAA0069DD15 /* CardError.swift in Sources */,
 				4B2E5A2524D9F8E70069DD15 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
